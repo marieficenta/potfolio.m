@@ -1,0 +1,78 @@
+:root {
+  --primary-color: rgb(53, 53, 53);
+  --secondary-color: rgb(61, 114, 157);
+  --third-color: rgb(92, 91, 91);
+  --bc-color: rgba(31, 121, 194, 0.5);
+  --border: 1px solid rgb(61, 114, 157);
+  --hover-color: rgb(0, 0, 255);
+}
+body {
+  text-align: center;
+}
+.first {
+  height: 500px;
+}
+
+.name {
+  font-size: 152px;
+}
+#name {
+  margin-top: 150px;
+}
+
+/* h4 {
+  color: var(--third-color);
+  margin: 30px;
+}
+h1 {
+  color: var(--primary-color);
+}
+.contact,
+.about {
+  margin: 10px;
+  padding: 20px;
+}
+.contact {
+  background-color: var(--bc-color);
+  color: white;
+  text-decoration: none;
+}
+.about {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+.homepage {
+  color: var(--third-color);
+  text-decoration: none;
+}
+
+.col {
+  color: var(--primary-color);
+  margin: 10px;
+  padding: 15px;
+  background-color: var(--bc-color);
+}
+.footer a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a :hover {
+  color: var(--hover-color) !important;
+}
+.footer {
+  text-align: center;
+  margin: 20px;
+}
+/*.container {
+  margin: 20px;
+}*/
+@media (max-width: 900px) {
+  .row {
+    font-size: 14px;
+    text-align: center;
+  }
+  img {
+    width: 50vw;
+  }
+}
